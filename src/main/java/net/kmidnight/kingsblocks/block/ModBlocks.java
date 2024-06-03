@@ -23,7 +23,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> SLIMEDOOR = registerBlock("slime_door",
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR)));
     public static final RegistryObject<Block> BLACKICE = registerBlock("black_ice",
-        () -> new HalfTransparentBlock(BlockBehaviour.Properties.of().mapColor(MapColor.ICE).strength(3F).friction(0F).sound(SoundType.GLASS)));
+        () -> new HalfTransparentBlock(BlockBehaviour.Properties.of().mapColor(MapColor.ICE).strength(3F).friction(1.5F).sound(SoundType.GLASS)));
     public static final RegistryObject<Block> MYSTICYIPEEE = registerBlock("mystic_yipeee",
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> IRON_GATE = registerBlock("iron_gate",
