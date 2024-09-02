@@ -22,7 +22,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.IRON_GATE.get());
         this.dropSelf(ModBlocks.COPPER_GATE.get());
         this.dropSelf(ModBlocks.SLATE.get());
-        this.dropSelf(ModBlocks.BOOKSHELF_SLAB.get());
+
+        this.add(ModBlocks.BOOKSHELF_SLAB.get(),
+            block -> createSlabItemTable(ModBlocks.BOOKSHELF_SLAB.get()));
     }
 
     @Override

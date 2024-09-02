@@ -1,7 +1,7 @@
-// 1.20.2	2024-05-29T22:22:07.849424	Block States: kingsblocks
+// 1.20.2	2024-08-30T09:44:42.2233847	Block States: kingsblocks
 bfff46b015435c8500b68a7e03f13f9c7989168f assets/kingsblocks/blockstates/amethyst_trapdoor.json
 570bf18589d3057ae74602e63bb3270373e256a2 assets/kingsblocks/blockstates/black_ice.json
-fe92d48b4fc7f57849d2561e64b6bc25456d7fff assets/kingsblocks/blockstates/bookshelf_slab.json
+eec72f3526dd9910ffd484a1dc6a60449fb6e96f assets/kingsblocks/blockstates/bookshelf_slab.json
 fd1794c64b15550830c9ce246b54581b4d4c832d assets/kingsblocks/blockstates/copper_gate.json
 5789665b6354025901a885359fa70fa78d1ab7fe assets/kingsblocks/blockstates/iron_gate.json
 88b96eae448c2ceae2e1fa1ef52ab61e0dab3c7a assets/kingsblocks/blockstates/mystic_yipeee.json
@@ -9,7 +9,8 @@ fd1794c64b15550830c9ce246b54581b4d4c832d assets/kingsblocks/blockstates/copper_g
 cb513f0a70f7476d18622053e7c6b3338fcd7bef assets/kingsblocks/blockstates/slime_door.json
 688c86db3019f3afb9496718f5fb5991b0d794f3 assets/kingsblocks/models/block/amethyst_trapdoor.json
 ea3655fb18b033645565da0d5057aee370cb9b4f assets/kingsblocks/models/block/black_ice.json
-8ab1704cbc90160aded83f5e61fdbc2e62d64e85 assets/kingsblocks/models/block/bookshelf_slab.json
+75b1895e24ef13cb677448c9c4345ffaa8818e79 assets/kingsblocks/models/block/bookshelf_slab.json
+c3dbbaaeec23d359a276bb873a909d4359f35059 assets/kingsblocks/models/block/bookshelf_slab_top.json
 2909502aef15dbf249adfc82a90d109173683716 assets/kingsblocks/models/block/copper_gate.json
 9a06051b8bdc03abd3889148a65d4ac0a500e77b assets/kingsblocks/models/block/iron_gate.json
 250c9b98a849c98f54d1b5b3c6b2cb56003010cb assets/kingsblocks/models/block/mystic_yipeee.json
@@ -17,7 +18,6 @@ ea3655fb18b033645565da0d5057aee370cb9b4f assets/kingsblocks/models/block/black_i
 bd7524aea999671de14f7851398fe574702651ce assets/kingsblocks/models/block/slime_door.json
 ca91d80d342e90bce18d7b61cb09d9fbba7c241f assets/kingsblocks/models/item/amethyst_trapdoor.json
 26d5216abeb8ca549b1378fa9fbe47d68505e2d1 assets/kingsblocks/models/item/black_ice.json
-025f9f0f404bdf2423192266d9f70790b78b4088 assets/kingsblocks/models/item/bookshelf_slab.json
 80c286b68c6117642aab655d4fb17f6dad6d3a45 assets/kingsblocks/models/item/copper_gate.json
 1b8ea295767516364f65d5dfabe0cfaa70aa92b4 assets/kingsblocks/models/item/iron_gate.json
 b82cdde700eaa135ddccb9a6cfbf33a642f521a8 assets/kingsblocks/models/item/mystic_yipeee.json

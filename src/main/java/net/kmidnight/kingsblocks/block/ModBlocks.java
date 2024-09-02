@@ -33,7 +33,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> SLATE = registerBlock("slate",
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> BOOKSHELF_SLAB = registerBlock("bookshelf_slab",
-        () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(1.5F).sound(SoundType.WOOD).ignitedByLava()));
+        () -> new SlabBlock(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASS).strength(1.5F).sound(SoundType.WOOD).ignitedByLava()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

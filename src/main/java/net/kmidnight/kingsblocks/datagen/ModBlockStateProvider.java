@@ -4,6 +4,8 @@ import net.kmidnight.kingsblocks.KingsBlocksMod;
 import net.kmidnight.kingsblocks.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SlabBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -19,7 +21,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.AMETHYSTTRAPDOOR); // blockWithItem(ModBlocks.BLOCK);
         blockWithItem(ModBlocks.BLACKICE);
-        blockWithItem(ModBlocks.BOOKSHELF_SLAB);
         blockWithItem(ModBlocks.COPPER_GATE);
         blockWithItem(ModBlocks.IRON_GATE);
         blockWithItem(ModBlocks.MYSTICYIPEEE);

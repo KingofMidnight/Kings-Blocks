@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kingsblocks:block/bookshelf_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/bookshelf"
+    },
+    "type=top": {
+      "model": "kingsblocks:block/bookshelf_slab_top"
+    }
+  }
+}
