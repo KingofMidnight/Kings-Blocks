@@ -1,3 +1,4 @@
-// 1.20.2	2024-08-30T09:44:42.255388	Tags for minecraft:block mod id kingsblocks
-07ae1003206572fed7d635d4baa5655702c31c49 data/minecraft/tags/blocks/mineable/pickaxe.json
-d0f3cea059dda620a7008a795ecb210a64544159 data/minecraft/tags/blocks/needs_iron_tool.json
+// 1.20.2	2024-09-11T15:25:23.9792027	Tags for minecraft:block mod id kingsblocks
+dee817ab9a79309100b9b2cad9a71cd81d124545 data/minecraft/tags/blocks/mineable/pickaxe.json
+39afbe1d841a53f9afb7e1e090c98e9e433d0a7f data/minecraft/tags/blocks/needs_diamond_tool.json
+92894a8ef59d738376a4f9e146cdb959ad5c793a data/minecraft/tags/blocks/needs_iron_tool.json

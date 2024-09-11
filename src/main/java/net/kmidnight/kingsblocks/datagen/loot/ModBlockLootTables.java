@@ -15,13 +15,21 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        this.dropSelf(ModBlocks.AMETHYSTTRAPDOOR.get());
-        this.dropSelf(ModBlocks.SLIMEDOOR.get());
-        this.dropSelf(ModBlocks.BLACKICE.get());
-        this.dropSelf(ModBlocks.MYSTICYIPEEE.get());
+        this.dropSelf(ModBlocks.AMETHYST_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.SLIME_DOOR.get());
+        this.dropSelf(ModBlocks.BLACK_ICE.get());
+        this.dropSelf(ModBlocks.MYSTIC_YIPEEE.get());
         this.dropSelf(ModBlocks.IRON_GATE.get());
         this.dropSelf(ModBlocks.COPPER_GATE.get());
         this.dropSelf(ModBlocks.SLATE.get());
+        this.dropSelf(ModBlocks.WROUGHTIRONFENCE.get());
+        this.dropSelf(ModBlocks.WROUGHTIRONGATE.get());
+        this.dropSelf(ModBlocks.POISONBARBWIRE.get());
+        this.dropSelf(ModBlocks.HEAVENSGATE.get());
+        this.dropSelf(ModBlocks.RNBOBSIDIAN.get());
+        this.dropSelf(ModBlocks.RAINBOWBLOCK.get());
+        this.dropSelf(ModBlocks.ETERNALFURNACE.get());
+        this.dropSelf(ModBlocks.ROSEQUARTZBLOCK.get());
 
         this.add(ModBlocks.BOOKSHELF_SLAB.get(),
             block -> createSlabItemTable(ModBlocks.BOOKSHELF_SLAB.get()));

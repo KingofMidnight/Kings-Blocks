@@ -4,6 +4,11 @@
     "kingsblocks:slate",
     "kingsblocks:amethyst_trapdoor",
     "kingsblocks:copper_gate",
-    "kingsblocks:iron_gate"
+    "kingsblocks:iron_gate",
+    "kingsblocks:wroughtironfence",
+    "kingsblocks:wroughtirongate",
+    "kingsblocks:redandblueobsidian",
+    "kingsblocks:eternalfurnace",
+    "kingsblocks:rosequartzblock"
   ]
 }

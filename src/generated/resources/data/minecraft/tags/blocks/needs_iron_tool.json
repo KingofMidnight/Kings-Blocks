@@ -2,6 +2,9 @@
   "values": [
     "kingsblocks:iron_gate",
     "kingsblocks:copper_gate",
-    "kingsblocks:amethyst_trapdoor"
+    "kingsblocks:amethyst_trapdoor",
+    "kingsblocks:wroughtironfence",
+    "kingsblocks:wroughtirongate",
+    "kingsblocks:rosequartzblock"
   ]
 }

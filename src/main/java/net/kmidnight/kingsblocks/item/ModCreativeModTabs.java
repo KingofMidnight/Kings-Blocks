@@ -17,14 +17,22 @@ public class ModCreativeModTabs {
             .title(Component.translatable("creativetab.kingsblocks_tab"))
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.KINGSBADGE.get());
-                pOutput.accept(ModBlocks.AMETHYSTTRAPDOOR.get());
-                pOutput.accept(ModBlocks.BLACKICE.get());
+                pOutput.accept(ModBlocks.AMETHYST_TRAPDOOR.get());
+                pOutput.accept(ModBlocks.BLACK_ICE.get());
                 pOutput.accept(ModBlocks.BOOKSHELF_SLAB.get());
-                pOutput.accept(ModBlocks.SLIMEDOOR.get());
+                pOutput.accept(ModBlocks.SLIME_DOOR.get());
                 pOutput.accept(ModBlocks.IRON_GATE.get());
                 pOutput.accept(ModBlocks.COPPER_GATE.get());
                 pOutput.accept(ModBlocks.SLATE.get());
-                pOutput.accept(ModBlocks.MYSTICYIPEEE.get());
+                pOutput.accept(ModBlocks.MYSTIC_YIPEEE.get());
+                pOutput.accept(ModBlocks.WROUGHTIRONFENCE.get());
+                pOutput.accept(ModBlocks.WROUGHTIRONGATE.get());
+                pOutput.accept(ModBlocks.POISONBARBWIRE.get());
+                pOutput.accept(ModBlocks.HEAVENSGATE.get());
+                pOutput.accept(ModBlocks.RNBOBSIDIAN.get());
+                pOutput.accept(ModBlocks.RAINBOWBLOCK.get());
+                pOutput.accept(ModBlocks.ETERNALFURNACE.get());
+                pOutput.accept(ModBlocks.ROSEQUARTZBLOCK.get());
             }).build());
 
 

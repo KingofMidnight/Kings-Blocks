@@ -20,6 +20,8 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         // simpleItem(ModItems.ICESWORD);
+
+        simplerBlockItem(ModBlocks.BOOKSHELF_SLAB);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

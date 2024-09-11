@@ -7,7 +7,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
-import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -19,13 +18,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        blockWithItem(ModBlocks.AMETHYSTTRAPDOOR); // blockWithItem(ModBlocks.BLOCK);
-        blockWithItem(ModBlocks.BLACKICE);
+        blockWithItem(ModBlocks.AMETHYST_TRAPDOOR); // blockWithItem(ModBlocks.BLOCK);
+        blockWithItem(ModBlocks.BLACK_ICE);
         blockWithItem(ModBlocks.COPPER_GATE);
         blockWithItem(ModBlocks.IRON_GATE);
-        blockWithItem(ModBlocks.MYSTICYIPEEE);
+        blockWithItem(ModBlocks.MYSTIC_YIPEEE);
         blockWithItem(ModBlocks.SLATE);
-        blockWithItem(ModBlocks.SLIMEDOOR);
+        blockWithItem(ModBlocks.SLIME_DOOR);
+        blockWithItem(ModBlocks.WROUGHTIRONFENCE);
+        blockWithItem(ModBlocks.WROUGHTIRONGATE);
+        blockWithItem(ModBlocks.POISONBARBWIRE);
+        blockWithItem(ModBlocks.HEAVENSGATE);
+        blockWithItem(ModBlocks.RNBOBSIDIAN);
+        blockWithItem(ModBlocks.RAINBOWBLOCK);
+        blockWithItem(ModBlocks.ETERNALFURNACE);
+        blockWithItem(ModBlocks.ROSEQUARTZBLOCK);
 
         // simpleBlock(ModBlocks.ATM.get(),
         //     new ModelFile.UncheckedModelFile(modLoc("block/atm")));

@@ -9,6 +9,15 @@
   "block.kingsblocks.copper_gate": "Copper Gate",
   "block.kingsblocks.slate": "Slate",
   "block.kingsblocks.bookshelf_slab": "Bookshelf Slab",
+  "block.kingsblocks.wroughtironfence": "Wrought Iron Fence",
+  "block.kingsblocks.wroughtirongate": "Wrought Iron Gate",
+  "block.kingsblocks.poisonbarbwire": "Poison Barb Wire",
+  "block.kingsblocks.heavensgate": "Heavens Gate",
+  "block.kingsblocks.redandblueobsidian": "Red & Blue Obsidian",
+  "block.kingsblocks.rainbowblock": "Rainbow Block",
+  "block.kingsblocks.eternalfurnace": "Eternal Furnace",
+  "block.kingsblocks.rosequartzblock": "Rose Quartz Block",
+  "block.kingsblocks.beeper": "Beeper Button :P",
 
   "creativetab.kingsblocks_tab": "King's Blocks"
 }
