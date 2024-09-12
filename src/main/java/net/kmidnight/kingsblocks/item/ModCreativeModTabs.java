@@ -33,6 +33,8 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModBlocks.RAINBOWBLOCK.get());
                 pOutput.accept(ModBlocks.ETERNALFURNACE.get());
                 pOutput.accept(ModBlocks.ROSEQUARTZBLOCK.get());
+                pOutput.accept(ModBlocks.BEEPER.get());
+                pOutput.accept(ModBlocks.BEEPERBLOCK.get());
             }).build());
 
 

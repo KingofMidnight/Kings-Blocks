@@ -5,6 +5,7 @@ import net.kmidnight.kingsblocks.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.ButtonBlock;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -30,9 +31,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.POISONBARBWIRE);
         blockWithItem(ModBlocks.HEAVENSGATE);
         blockWithItem(ModBlocks.RNBOBSIDIAN);
-        blockWithItem(ModBlocks.RAINBOWBLOCK);
         blockWithItem(ModBlocks.ETERNALFURNACE);
         blockWithItem(ModBlocks.ROSEQUARTZBLOCK);
+
+        buttonBlock(((ButtonBlock) ModBlocks.BEEPER.get()), blockTexture(ModBlocks.BEEPERBLOCK.get()));
 
         // simpleBlock(ModBlocks.ATM.get(),
         //     new ModelFile.UncheckedModelFile(modLoc("block/atm")));

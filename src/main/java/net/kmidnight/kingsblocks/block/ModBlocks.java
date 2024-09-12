@@ -6,6 +6,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -43,6 +44,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> ROSEQUARTZBLOCK = registerBlock("rosequartzblock",
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> BEEPER = registerBlock("beeper",
+        () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).sound(SoundType.AMETHYST),
+            BlockSetType.IRON, 10, true));
+    public static final RegistryObject<Block> BEEPERBLOCK = registerBlock("beeperblock",
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 

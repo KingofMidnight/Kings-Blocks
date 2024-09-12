@@ -1,5 +1,7 @@
-// 1.20.2	2024-09-11T17:01:13.6725255	Block States: kingsblocks
+// 1.20.2	2024-09-12T09:51:25.6003038	Block States: kingsblocks
 bfff46b015435c8500b68a7e03f13f9c7989168f assets/kingsblocks/blockstates/amethyst_trapdoor.json
+267b201b6c9f6c0b36af7114f6e3412494bcf6a6 assets/kingsblocks/blockstates/beeper.json
+3a24148ee551d97b1bdaa814860c4d222265e9a4 assets/kingsblocks/blockstates/beeperblock.json
 570bf18589d3057ae74602e63bb3270373e256a2 assets/kingsblocks/blockstates/black_ice.json
 fd1794c64b15550830c9ce246b54581b4d4c832d assets/kingsblocks/blockstates/copper_gate.json
 1b7e1e61e5f0feb1135fab7444973b9073e1abbc assets/kingsblocks/blockstates/eternalfurnace.json
@@ -15,6 +17,9 @@ cb513f0a70f7476d18622053e7c6b3338fcd7bef assets/kingsblocks/blockstates/slime_do
 21e7eec503a76196c8f15c7c9523f145440de1c2 assets/kingsblocks/blockstates/wroughtironfence.json
 2f8db66de46b3c78a4a843bacb5804a4967e0107 assets/kingsblocks/blockstates/wroughtirongate.json
 688c86db3019f3afb9496718f5fb5991b0d794f3 assets/kingsblocks/models/block/amethyst_trapdoor.json
+9642fa8c88175a3833ac61f0b0cebef3186a765d assets/kingsblocks/models/block/beeper.json
+3fbb74b3343d2698506b3ec9d3a69683c5d201f2 assets/kingsblocks/models/block/beeperblock.json
+7ac47da7549a0f8c6e1b10db805513dfbb8c45e2 assets/kingsblocks/models/block/beeper_pressed.json
 ea3655fb18b033645565da0d5057aee370cb9b4f assets/kingsblocks/models/block/black_ice.json
 2909502aef15dbf249adfc82a90d109173683716 assets/kingsblocks/models/block/copper_gate.json
 c776ab914d297c9ad58806c356cd3ef38867b225 assets/kingsblocks/models/block/eternalfurnace.json
@@ -30,6 +35,7 @@ bd7524aea999671de14f7851398fe574702651ce assets/kingsblocks/models/block/slime_d
 add7a8f3e4b586aebf9f0404e30ea6dff5c2912c assets/kingsblocks/models/block/wroughtironfence.json
 0328730dc30f2f424ad4afbab9b68bc80035964c assets/kingsblocks/models/block/wroughtirongate.json
 ca91d80d342e90bce18d7b61cb09d9fbba7c241f assets/kingsblocks/models/item/amethyst_trapdoor.json
+c7c007204f5e07c32713a2ba722505260040a17d assets/kingsblocks/models/item/beeperblock.json
 26d5216abeb8ca549b1378fa9fbe47d68505e2d1 assets/kingsblocks/models/item/black_ice.json
 80c286b68c6117642aab655d4fb17f6dad6d3a45 assets/kingsblocks/models/item/copper_gate.json
 59c0798f02cc4c86f1917c146517921ba4b85a5a assets/kingsblocks/models/item/eternalfurnace.json

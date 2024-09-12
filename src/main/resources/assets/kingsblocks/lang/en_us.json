@@ -17,7 +17,8 @@
   "block.kingsblocks.rainbowblock": "Rainbow Block",
   "block.kingsblocks.eternalfurnace": "Eternal Furnace",
   "block.kingsblocks.rosequartzblock": "Rose Quartz Block",
-  "block.kingsblocks.beeper": "Beeper Button :P",
+  "block.kingsblocks.beeper": "Beeper Button",
+  "block.kingsblocks.beeperblock": "Beeper Block",
 
   "creativetab.kingsblocks_tab": "King's Blocks"
 }

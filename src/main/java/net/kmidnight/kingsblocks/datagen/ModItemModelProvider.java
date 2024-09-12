@@ -21,6 +21,8 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         // simpleItem(ModItems.ICESWORD);
 
+        buttonItem(ModBlocks.BEEPER, ModBlocks.BEEPERBLOCK);
+
         simplerBlockItem(ModBlocks.BOOKSHELF_SLAB);
     }
 
@@ -39,5 +41,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
             new ResourceLocation("item/generated")).texture("layer0",
             new ResourceLocation(KingsBlocksMod.MODID, "item/" + item.getId().getPath()));
+    }
+
+    public void buttonItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))
+            .texture("texture",  new ResourceLocation(KingsBlocksMod.MODID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }
 }

@@ -30,6 +30,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.RAINBOWBLOCK.get());
         this.dropSelf(ModBlocks.ETERNALFURNACE.get());
         this.dropSelf(ModBlocks.ROSEQUARTZBLOCK.get());
+        this.dropSelf(ModBlocks.BEEPER.get());
+        this.dropSelf(ModBlocks.BEEPERBLOCK.get());
 
         this.add(ModBlocks.BOOKSHELF_SLAB.get(),
             block -> createSlabItemTable(ModBlocks.BOOKSHELF_SLAB.get()));

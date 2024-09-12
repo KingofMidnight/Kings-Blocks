@@ -1,5 +1,7 @@
-// 1.20.2	2024-09-11T15:25:23.9452044	Loot Tables
+// 1.20.2	2024-09-12T09:51:25.6168227	Loot Tables
 9c77daa0b43020bf06c34eb319406ab0535903e5 data/kingsblocks/loot_tables/blocks/amethyst_trapdoor.json
+e2689ece9f60a5f22adb6326a7f335efd65f9654 data/kingsblocks/loot_tables/blocks/beeper.json
+714a7fd2a6118a4323deafc72be99b291a3cb120 data/kingsblocks/loot_tables/blocks/beeperblock.json
 7ad6bb0bedc578ff0dac6d86be5cfe272d9daf44 data/kingsblocks/loot_tables/blocks/black_ice.json
 eb2bae6296f68a3cf6a5d6ea1f4036b87e704adb data/kingsblocks/loot_tables/blocks/bookshelf_slab.json
 5a5dbd14f2b715634bb4b79b315c719639e06155 data/kingsblocks/loot_tables/blocks/copper_gate.json
